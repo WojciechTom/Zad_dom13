@@ -1,7 +1,7 @@
 package wynikiZawodow13;
 import java.util.Comparator;
 
-public class imieComparator implements Comparator<Wynik> {
+public class ImieComparator implements Comparator<Wynik> {
 
     @Override
     public int compare(Wynik o1, Wynik o2) {

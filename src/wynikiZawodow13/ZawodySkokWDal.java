@@ -51,11 +51,11 @@ public class ZawodySkokWDal {
 
 
         if (parametr.equals("I")) {
-            Collections.sort(lista, new imieComparator());
+            Collections.sort(lista, new ImieComparator());
         } else if (parametr.equals("N")) {
-            Collections.sort(lista, new nazwiskoComparator());
+            Collections.sort(lista, new NazwiskoComparator());
         } else if (parametr.equals("W")) {
-            Collections.sort(lista, new wynikComparator());
+            Collections.sort(lista, new WynikComparator());
         } else {
             System.out.println("Niepoprawny parametr sortowania");
         }
